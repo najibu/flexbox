@@ -1,0 +1,20 @@
+.container {
+  display: flex;  
+  flex-direction: row-reverse;
+}
+
+.box {
+  background: red;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1em;
+  flex: 1;
+}
+
+.box:nth-child(2){
+  flex: 3;
+}
