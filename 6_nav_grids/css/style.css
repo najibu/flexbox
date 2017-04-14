@@ -1,0 +1,42 @@
+header {
+  background: red;
+}
+header h1 {
+  margin: 0;
+}
+
+aside {
+  background: yellow;
+}
+
+main {
+  background: blue;
+}
+
+footer {
+  background: pink;
+}
+
+/* Flexbox */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header, footer {
+  flex-basis: 100%;
+}
+
+aside {
+  flex-basis: 175px;
+}
+
+main {
+  flex: 1;
+}
+
+@media screen and (max-width: 480px) {
+  .container > * {
+    flex-basis: 100%;
+  }
+}
