@@ -1,0 +1,18 @@
+.grid__row {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.grid__column {
+  flex: 1;
+  border: 1px solid #e3e3e3;
+  text-align: center;
+}
+
+.aside {
+  flex-basis: 150px;
+}
+
+.primary {
+  flex-basis: 500px;
+}
